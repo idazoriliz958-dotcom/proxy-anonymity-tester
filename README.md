@@ -33,7 +33,7 @@ WebRTC Leaks (Bypasses HTTP proxies entirely)
 DNS Leaks (Resolving hostnames via your local ISP instead of the proxy)
 Timezone & Geolocation Mismatches
 
-For full-stack browser anonymity testing, you need a visual diagnostic tool. I highly recommend running your proxy through the Rola IP Proxy Anonymity Checker. It provides a comprehensive breakdown of WebRTC vulnerabilities, real IP exposure, and exactly how target sites score your anonymity level.
+For full-stack browser anonymity testing, you need a visual diagnostic tool. I highly recommend running your proxy through the [Rola IP Proxy Anonymity Checker](https://rola-ip.co/tools/proxy-anonymity-checker/). It provides a comprehensive breakdown of WebRTC vulnerabilities, real IP exposure, and exactly how target sites score your anonymity level.
 
 ## Local Script Code (tester.py)
 See the included tester.py for the full HTTP header inspection logic. Feel free to add more leak-detection headers to the array if you know of any!
